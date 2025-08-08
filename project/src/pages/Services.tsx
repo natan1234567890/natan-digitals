@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Globe, Smartphone, ShoppingCart, FileText, Palette, Search, ArrowRight, Check } from 'lucide-react';
-
+import { Share2 } from 'lucide-react';
 const Services: React.FC = () => {
   const services = [
     {
@@ -63,9 +63,9 @@ const Services: React.FC = () => {
     {
       icon: <Palette className="w-8 h-8" />,
       title: 'Add-Ons',
-      description: 'Enhance your project with additional services like SEO optimization, branding packages, maintenance, and digital marketing.',
+      description: 'Enhance your project with additional services like Social Media Management, branding packages, maintenance, and digital marketing.',
       price: 'varies',
-      features: ['SEO Optimization', 'Brand Design', 'Maintenance Plans', 'Digital Marketing'],
+      features: ['Social Media Management', 'Brand Design', 'Maintenance Plans', 'Digital Marketing'],
       gradient: 'from-pink-500 to-orange-500',
     },
     {
@@ -79,12 +79,12 @@ const Services: React.FC = () => {
 
   ];
 
-  const additionalServices = [
-    { icon: <Search className="w-6 h-6" />, title: 'SEO Optimization', description: 'Improve your search engine rankings' },
-    { icon: <Palette className="w-6 h-6" />, title: 'Brand Design', description: 'Logo and brand identity design' },
-    { icon: <Globe className="w-6 h-6" />, title: 'Domain & Hosting', description: 'Complete web hosting solutions' },
-    { icon: <Smartphone className="w-6 h-6" />, title: 'Maintenance', description: 'Ongoing support and updates' },
-  ];
+ const additionalServices = [
+  { icon: <Share2 className="w-6 h-6" />, title: 'Social Media Management', description: 'Grow your brand across platforms like Facebook, Instagram, and TikTok' },
+  { icon: <Palette className="w-6 h-6" />, title: 'Brand Design', description: 'Logo and brand identity design' },
+  { icon: <Globe className="w-6 h-6" />, title: 'Domain & Hosting', description: 'Complete web hosting solutions' },
+  { icon: <Smartphone className="w-6 h-6" />, title: 'Maintenance', description: 'Ongoing support and updates' },
+];
 
   return (
     <div className="bg-gray-900 py-20">

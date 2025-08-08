@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Phone,
   Send,
-  Mail,
   MapPin,
   Clock,
   MessageCircle,
@@ -19,14 +18,7 @@ const Contact: React.FC = () => {
       action: 'https://t.me/natandigitals',
       gradient: 'from-blue-500 to-cyan-500',
     },
-    {
-      icon: <Mail className="w-6 h-6" />,
-      title: 'Email',
-      value: 'info@natandigitals.com',
-      description: 'Send us an email for detailed inquiries',
-      action: 'mailto:info@natandigitals.com',
-      gradient: 'from-purple-500 to-pink-500',
-    },
+    
   ];
 
   const officeInfo = [

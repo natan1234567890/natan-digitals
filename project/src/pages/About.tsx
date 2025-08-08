@@ -26,7 +26,7 @@ const About: React.FC = () => {
   ];
 
   const achievements = [
-    { icon: <Clock className="w-6 h-6" />, text: 'Average 3-day delivery time' },
+    { icon: <Clock className="w-6 h-6" />, text: 'Average 7-day delivery time' },
     { icon: <Shield className="w-6 h-6" />, text: '100% secure and reliable solutions' },
     { icon: <Award className="w-6 h-6" />, text: 'Trusted by 50+ businesses' },
     { icon: <Users className="w-6 h-6" />, text: 'Dedicated customer support' },

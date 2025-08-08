@@ -188,7 +188,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <li>Mobile App Development</li>
                 <li>E-commerce Solutions</li>
                 <li>Digital Branding</li>
-                <li>SEO Optimization</li>
+                <li>Social Media Management</li>
               </ul>
             </div>
           </div>

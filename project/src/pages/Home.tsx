@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Zap, Globe, Smartphone, Palette, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
-import StarsOnlyCanvas from '../components/StarsOnlyCanvas'; // Updated component for stars-only background
+
 
 const Home: React.FC = () => {
   const features = [
@@ -16,15 +16,13 @@ const Home: React.FC = () => {
     { number: '50+', label: 'Projects Completed' },
     { number: '100%', label: 'Client Satisfaction' },
     { number: '24/7', label: 'Support Available' },
-    { number: '3 Days', label: 'Average Delivery' },
+    { number: '7 Days', label: 'Average Delivery' },
   ];
 
   return (
     <div className="bg-gray-950 text-white">
       <section className="relative overflow-hidden border-b border-cyan-600/30 shadow-cyan-500/10 shadow-xl">
-        <div className="absolute inset-0 z-0">
-          <StarsOnlyCanvas />
-        </div>
+       
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-cyan-900 opacity-50 z-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 z-20">
           <motion.div 
