@@ -16,7 +16,7 @@ const Home: React.FC = () => {
     { number: '50+', label: 'Projects Completed' },
     { number: '100%', label: 'Client Satisfaction' },
     { number: '24/7', label: 'Support Available' },
-    { number: '7 Days', label: 'Average Delivery' },
+    { number: '14 Days', label: 'Average Delivery' },
   ];
 
   return (
