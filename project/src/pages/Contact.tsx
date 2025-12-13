@@ -185,7 +185,7 @@ const Contact: React.FC = () => {
               {[
                 {
                   question: 'How long does it take to build a website?',
-                  answer: 'Most projects are completed within 3–15 days, depending on complexity and your requirements.',
+                  answer: 'Most projects are completed within 7–20 days, depending on complexity and your requirements.',
                 },
                 {
                   question: 'Do you provide hosting and domain services?',
