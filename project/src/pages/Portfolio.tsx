@@ -201,7 +201,7 @@ const Portfolio: React.FC = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: '50+', label: 'Projects Completed' },
+              { number: '20+', label: 'Projects Completed' },
               { number: '98%', label: 'Client Satisfaction' },
               { number: '2.5x', label: 'Average Traffic Increase' },
               { number: '48hrs', label: 'Average Response Time' },
